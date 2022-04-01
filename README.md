@@ -20,3 +20,41 @@ switch (animal) {
     break;
 }
 ```
+
+```
+const number = 5;
+
+switch (number) {
+  case 1:
+  case 3:
+    console.log(`required odds`);
+    break;
+  case 2:
+  case 4:
+    console.log(`required evens`);
+    break;
+  default:
+    console.log(`not required`);
+    break;
+}
+```
+
+```
+const animal = "Dog";
+const age = 11;
+
+switch (true) {
+  case animal === "Dog" && age >= 12:
+    console.log(`Hyena`);
+    break;
+  case animal === "Dog" && age < 12:
+    console.log(`Wolf`);
+    break;
+  case animal === "Cat" && age >= 12:
+    console.log("Lion");
+    break;
+  case animal === "Cat" && age < 12:
+    console.log("Cheetah");
+    break;
+}
+```
